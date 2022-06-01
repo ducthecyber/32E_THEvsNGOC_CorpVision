@@ -8,6 +8,14 @@
     font-size: 1rem;
 }
 
+.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .project {
     background-color: #f8f9fa;
 }
@@ -90,4 +98,104 @@
     opacity: 1;
     bottom: -15%;
 }
+
+.company-logo{
+    border-top: 1px solid #eee;
+}
+
+.company-logo .img{
+    padding: 0 18px;
+}
+
+.radius-image{
+    border-radius: 8px;
+}
+.project-progress .content-right .title-small{
+    font-size: 14px;
+    font-weight: 600;
+    color: #7e7d7d;
+    line-height: 30px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.project-progress .content-right .title-big{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    display: block;
+}
+
+.progress-info{
+    text-align: left;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.progress-title{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3f3a64;
+    margin-bottom: 10px;
+}
+
+.info2 .progress-title{
+    width: 95%;
+}
+
+.info3 .progress-title{
+    width: 60%;
+}
+
+.info4 .progress-title{
+    width: 85%;
+}
+
+.progress-info .progress{
+    height: 4px;
+    background-color: #f7f7f7;
+    border-radius: 0.25rem;
+}
+.progress .progress-bar{
+    background-color: #009f4d;
+}
+
+.progress .progress-bar-striped{
+    background-size: cover;
+    background-image: none;
+}
+
+.progress .gradient-1{
+    color: #61fded;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+.progress .gradient-1::before{
+    content: "";
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    border-radius: 50%;
+    transform: translate(50%,-50%);
+}
+
+.progress .gradient-2{
+    color: #eece90;
+    background-image: linear-gradient(-224deg, #d45529, #eece90);
+}
+
+.progress .gradient-3{
+    color: #5c51ff;
+    background-image: linear-gradient(-224deg, #f646a9, #5c51ff);
+}
+
+.progress .gradient-4{
+    color: #e5529a;
+    background-image: linear-gradient(-224deg, #e77654, #e5529a);
+}
+
+
+
 
