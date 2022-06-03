@@ -8,7 +8,7 @@
     font-size: 1rem;
 }
 
-.container{
+.container {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -74,7 +74,7 @@
 }
 
 
-.overlay-hover .text{
+.overlay-hover .text {
     color: #ffffff;
     position: absolute;
     padding: 50px 40px;
@@ -83,34 +83,36 @@
     transition: all 0.5s;
 }
 
-.overlay-hover .text .title{
+.overlay-hover .text .title {
     color: #ffffff;
     font-size: 24px;
-    font-weight:400;
-}
-.overlay-hover .text .content{
-    color: #ffffff;
-    font-size: 18px;
-    font-weight:400;
+    font-weight: 400;
 }
 
-.project-content a.zoom:hover .text{
+.overlay-hover .text .content {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.project-content a.zoom:hover .text {
     opacity: 1;
     bottom: -15%;
 }
 
-.company-logo{
+.company-logo {
     border-top: 1px solid #eee;
 }
 
-.company-logo .img{
+.company-logo .img {
     padding: 0 18px;
 }
 
-.radius-image{
+.radius-image {
     border-radius: 8px;
 }
-.project-progress .content-right .title-small{
+
+.project-progress .content-right .title-small {
     font-size: 14px;
     font-weight: 600;
     color: #7e7d7d;
@@ -119,20 +121,20 @@
     display: block;
 }
 
-.project-progress .content-right .title-big{
+.project-progress .content-right .title-big {
     font-size: 35px;
     font-weight: 700;
     line-height: 45px;
     display: block;
 }
 
-.progress-info{
+.progress-info {
     text-align: left;
     margin-bottom: 30px;
     position: relative;
 }
 
-.progress-title{
+.progress-title {
     display: grid;
     grid-template-columns: 1fr auto;
     width: 80%;
@@ -142,50 +144,53 @@
     margin-bottom: 10px;
 }
 
-.info1 .progress-title{
+.info1 .progress-title {
     width: 80%;
 }
-.info2 .progress-title{
+
+.info2 .progress-title {
     width: 95%;
 }
 
-.info3 .progress-title{
+.info3 .progress-title {
     width: 60%;
 }
 
-.info4 .progress-title{
+.info4 .progress-title {
     width: 85%;
 }
 
-.progress-info .progress{
+.progress-info .progress {
     height: 4px;
     background-color: #f7f7f7;
     border-radius: 0.25rem;
 }
-.progress .progress-bar{
+
+.progress .progress-bar {
     background-color: #009f4d;
 }
 
-.progress .progress-bar-striped{
+.progress .progress-bar-striped {
     background-size: cover;
     background-image: none;
 }
 
-.progress .gradient-1{
+.progress .gradient-1 {
     color: #61fded;
     background-image: linear-gradient(-224deg, #0d8abc, #61fded);
 }
 
-.progress .gradient-1:before{
-    content:"";
+.progress .gradient-1:before {
+    content: "";
     position: absolute;
     left: 80%;
     border-radius: 50%;
     height: 13px;
     width: 13px;
-    border: 3px solid ;
+    border: 3px solid;
 }
-.progress .gradient-1:after{
+
+.progress .gradient-1:after {
     content: "";
     position: absolute;
     right: 20%;
@@ -197,21 +202,22 @@
     transform: translate(70%, 0%);
 }
 
-.progress .gradient-2{
+.progress .gradient-2 {
     color: #eece90;
     background-image: linear-gradient(-224deg, #d45529, #eece90);
 }
 
-.progress .gradient-2:before{
-    content:"";
+.progress .gradient-2:before {
+    content: "";
     position: absolute;
     left: 95%;
     border-radius: 50%;
     height: 13px;
     width: 13px;
-    border: 3px solid ;
+    border: 3px solid;
 }
-.progress .gradient-2:after{
+
+.progress .gradient-2:after {
     content: "";
     position: absolute;
     right: 5%;
@@ -223,21 +229,22 @@
     transform: translate(75%, 0%);
 }
 
-.progress .gradient-3{
+.progress .gradient-3 {
     color: #5c51ff;
     background-image: linear-gradient(-224deg, #f646a9, #5c51ff);
 }
 
-.progress .gradient-3:before{
-    content:"";
+.progress .gradient-3:before {
+    content: "";
     position: absolute;
     left: 60%;
     border-radius: 50%;
     height: 13px;
     width: 13px;
-    border: 3px solid ;
+    border: 3px solid;
 }
-.progress .gradient-3:after{
+
+.progress .gradient-3:after {
     content: "";
     position: absolute;
     right: 40%;
@@ -248,20 +255,23 @@
     opacity: 0.4;
     transform: translate(70%, 0%);
 }
-.progress .gradient-4{
+
+.progress .gradient-4 {
     color: #e5529a;
     background-image: linear-gradient(-224deg, #e77654, #e5529a);
 }
-.progress .gradient-4:before{
-    content:"";
+
+.progress .gradient-4:before {
+    content: "";
     position: absolute;
     left: 85%;
     border-radius: 50%;
     height: 13px;
     width: 13px;
-    border: 3px solid ;
+    border: 3px solid;
 }
-.progress .gradient-4:after{
+
+.progress .gradient-4:after {
     content: "";
     position: absolute;
     right: 15%;
@@ -272,6 +282,84 @@
     opacity: 0.4;
     transform: translate(70%, 0%);
 }
+.testimonial{
+    background-color: #f8f9fa;
+}
 
+.testimonial .title-small {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #7e7d7d;
+    display: block;
+}
 
+.testimonial .title-big {
+    font-size: 32px;
+    line-height: 20px;
+    font-weight: 700;
+}
 
+.testimonial-content {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 30px;
+    display: block;
+    position: relative;
+}
+
+.carousel-inner .intro p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+    opacity: 0.8;
+}
+
+.carousel-inner .name {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 20px;
+    margin-bottom: 80px;
+}
+
+.carousel-inner .name .img-fluid {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.testimonial-text h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.testimonial-text p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #666;
+    text-align: left;
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #213364;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.carousel-indicators li.active {
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #213364;
+    margin-right: 8px;
+}

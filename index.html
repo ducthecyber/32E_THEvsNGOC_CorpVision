@@ -16,6 +16,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
     rel="stylesheet">
+  <!-- CAROUSEL -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <!-- LIGHTBOX GALLERY -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.css"
     integrity="sha512-sGWpb8KzRvx7+EDVfRtle2olbzgtYXQgmYT6hpyJ/8P3cvaujcoOK2JAMUS4K+LgEadWG4RFvEuuQof8UGpFaQ=="
@@ -180,76 +182,196 @@
     <div class="customer-layout py-5">
       <div class="container py-lg-4 py-md-3 py-sm-2 pb-0">
         <h5 class="title-small mb-1 text-center">HAPPY CLIENTS FEEDBACK</h5>
-        <h3 class="title-big text-center mb-lg-4 mb-md-3 mb-sm-5">Reviews and Testimonials</h3>
-        <div class="item">
-          <div class="testimonial-content">
-            <div class="intro">
-              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus
-                esse quasi, doloribus tempora.
-                Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
-            </div>
-            <div class="name">
-              <div class="testimonial-img">
-                <img src="./img/team1.jpg" alt="" class="img-fluid" />
+        <h3 class="title-big text-center mb-4 mb-sm-5">Reviews and Testimonials</h3>
+        <div id="myCarousel" class="testimonial-content carousel slide">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <!-- <li data-target="#myCarousel" data-slide-to="0" class="active"></li> -->
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item text-center active">
+              <div class="carousel-content">
+                <div class="intro mb-lg-5 mb-md-4 mb-sm-3">
+                  <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi
+                    voluptatibus esse quasi, doloribus tempora.
+                    Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Esse architecto est ea sunt eligendi cum?</p>
+                </div>
+                <div class="name">
+                  <div class="testimonial-img">
+                    <img src="./img/team1.jpg" alt="" class="img-fluid" />
+                  </div>
+                  <div class="testimonial-text">
+                    <h3>John Wilson</h3>
+                    <p>Student</p>
+                  </div>
+                </div>
               </div>
-              <div class="testimonial-text">
-                <h3>John Wilson</h3>
-                <p>Student</p>
+            </div>
+            <div class="item text-center">
+              <div class="carousel-content">
+                <div class="intro mb-lg-5 mb-md-4 mb-sm-3">
+                  <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                    voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                    Dolores molestias adipisci dolo amet!.</p>
+                </div>
+                <div class="name">
+                  <div class="testimonial-img">
+                    <img src="./img/team2.jpg" alt="" class="img-fluid" />
+                  </div>
+                  <div class="testimonial-text">
+                    <h3>Julia Sakura</h3>
+                    <p>Student</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item text-center">
+              <div class="carousel-content">
+                <div class="intro mb-lg-5 mb-md-4 mb-sm-3">
+                  <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                    voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                    Dolores molestias adipisci dolo amet!.</p>
+                </div>
+                <div class="name">
+                  <div class="testimonial-img">
+                    <img src="./img/team3.jpg" alt="" class="img-fluid" />
+                  </div>
+                  <div class="testimonial-text">
+                    <h3>Roy Linderson</h3>
+                    <p>Student</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item text-center">
+              <div class="carousel-content">
+                <div class="intro mb-lg-5 mb-md-4 mb-sm-3">
+                  <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                    voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                    Dolores molestias adipisci dolo amet!.</p>
+                </div>
+                <div class="name">
+                  <div class="testimonial-img">
+                    <img src="./img/team4.jpg" alt="" class="img-fluid" />
+                  </div>
+                  <div class="testimonial-text">
+                    <h3>Smith Johnson</h3>
+                    <p>Student</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="item">
-          <div class="testimonial-content">
-            <div class="intro">
-              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium
-                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                Dolores molestias adipisci dolo amet!.</p>
-            </div>
-            <div class="name">
-              <div class="testimonial-img">
-                <img src="./img/team2.jpg" alt="" class="img-fluid" />
+      </div>
+    </div>
+  </section>
+  <section class="blog">
+    <div class="container py-lg-5 py-md-4 py-sm-3">
+      <div class="blog-title">
+        <h5 class="title-small text-center mb-1">LATEST NEWS</h5>
+        <h3 class="title-big text-center mb-4 mb-sm-5">Our insights and articles</h3>
+      </div>
+      <div class="blog-content">
+        <div class="row">
+          <div class="item col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-header position-relative">
+                <a href="#">
+                  <div class="blog-image">
+                    <img src="./img/blog1.jpg" alt="" />
+                  </div>
+                </a>
               </div>
-              <div class="testimonial-text">
-                <h3>Julia Sakura</h3>
-                <p>Student</p>
+              <div class="card-body">
+                <div class="align-items-center justify-content-between">
+                  <p>
+                    <a href="#">Startup Business</a>
+                  </p>
+                  <a href="#">Hello world</a>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="author align-items-center">
+                  <a href="#"><img src="./img/pageicon.jpeg" alt="" /></a>
+                  <ul>
+                    <li>by</li>
+                    <li><a href="#">W3Layouts</a></li>
+                  </ul>
+                  <div class="date">
+                    <p>April 1, 2021</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="testimonial-content">
-            <div class="intro">
-              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium
-                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                Dolores molestias adipisci dolo amet!.</p>
-            </div>
-            <div class="name">
-              <div class="testimonial-img">
-                <img src="./img/team3.jpg" alt="" class="img-fluid" />
+          <div class="item col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-header position-relative">
+                <a href="#">
+                  <div class="blog-image">
+                    <img src="./img/blog2.jpg" alt="" />
+                  </div>
+                </a>
               </div>
-              <div class="testimonial-text">
-                <h3>Roy Linderson</h3>
-                <p>Student</p>
+              <div class="card-body">
+                <div class="align-items-center justify-content-between">
+                  <p>
+                    <a href="#">Startup Business</a>
+                  </p>
+                  <a href="#">
+                    Companies in NY launched a joint project on a three-tower hall </a>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="author align-items-center">
+                  <a href="#"><img src="./img/pageicon.jpeg" alt="" /></a>
+                  <ul>
+                    <li>by</li>
+                    <li><a href="#">W3Layouts</a></li>
+                  </ul>
+                  <div class="date">
+                    <p>April 1, 2021</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="item">
-          <div class="testimonial-content">
-            <div class="intro">
-              <p>Lorem ipsum dolor sit amet elit. Velit beatae laudantium
-                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                Dolores molestias adipisci dolo amet!.</p>
-            </div>
-            <div class="name">
-              <div class="testimonial-img">
-                <img src="./img/team4.jpg" alt="" class="img-fluid" />
+          <div class="item col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-header position-relative">
+                <a href="#">
+                  <div class="blog-image">
+                    <img src="./img/blog3.jpg" alt="" />
+                  </div>
+                </a>
               </div>
-              <div class="testimonial-text">
-                <h3>Smith Johnson</h3>
-                <p>Student</p>
+              <div class="card-body">
+                <div class="align-items-center justify-content-between">
+                  <p>
+                    <a href="#">Startup Business</a>
+                  </p>
+                  <a href="#">
+                    Design breakthrough upgrades the product and ready to launch </a>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="author align-items-center">
+                  <a href="#"><img src="./img/pageicon.jpeg" alt="" /></a>
+                  <ul>
+                    <li>by</li>
+                    <li><a href="#">W3Layouts</a></li>
+                  </ul>
+                  <div class="date">
+                    <p>April 1, 2021</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -268,6 +390,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <!-- CAROUSEL -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <!-- LIGHTBOX GALLERY -->
   <!-- JQUERY ĐẶT TRƯỚC LIGHTBOX -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
