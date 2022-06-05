@@ -7,7 +7,7 @@
     /* background-color: #ffffff; */
     font-size: 1rem;
 }
-
+/* SECTION PROJECT */
 .container {
     width: 100%;
     padding-left: 15px;
@@ -101,17 +101,19 @@
 }
 
 .company-logo {
-    border-top: 1px solid #eee;
+    border-top: 1px solid rgba(249, 249, 249, 0.1);
 }
 
-.company-logo .img {
+.company-logo img {
     padding: 0 18px;
 }
 
 .radius-image {
     border-radius: 8px;
 }
+/* /SECTION PROJECT */
 
+/* SECTION PROJECT-PROGRESS */
 .title-small {
     font-size: 14px;
     font-weight: 600;
@@ -289,9 +291,11 @@ h3 {
     opacity: 0.4;
     transform: translate(70%, 0%);
 }
+/* /SECTION PROJECT-PROGRESS */
 
+/* SECTION TESTIMONIAL */
 .testimonial {
-    background-color: #f8f9fa;
+    background-color: #100f19;
 }
 
 .testimonial .title-small {
@@ -371,7 +375,9 @@ h3 {
     background-color: #213364;
     margin-right: 8px;
 }
+/* /SECTION TESTIMONIAL */
 
+/* SECTION BLOG */
 .blog-content .card a.zoom {
     position: relative;
     overflow: hidden;
@@ -417,7 +423,7 @@ h3 {
 }
 
 .card-body .detail {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: #3f3a64;
     line-height: 28px;
@@ -432,6 +438,10 @@ h3 {
     display: grid;
     grid-template-columns: auto 0.8fr auto;
     grid-gap: 10px;
+}
+
+.card-footer .img-fluid{
+    border-radius: 50%;
 }
 
 li {
@@ -473,7 +483,9 @@ p {
 .card-footer .date p {
     font-size: 15px;
 }
+/* /SECTION BLOG */
 
+/* SECTION SUBSCRIBE */
 /* Nếu để 
 .subscribe{
 background-image: url(../img/map.png);
@@ -546,7 +558,9 @@ form.subscribe {
     color: #fff;
     border: 1px solid #00a63f;
 }
+/* /SECTION SUBSCRIBE */
 
+/* SECTION FOOTER */
 .footer {
     background-color: #151421;
     border-top: 1px solid rgba(249, 249, 249, 0.1);
@@ -609,10 +623,17 @@ form.subscribe {
     opacity: 0.7;
 }
 
-.footer a:hover {
+.footer a:hover{
     text-decoration: none;
     color: #fff;
     opacity: 1;
+    transition: all 0.5s;
+}
+.footer .fa:hover{
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+    transition: all 0.5s;
 }
 
 .footer-social .fa {
@@ -640,11 +661,14 @@ form.subscribe {
 
 .copyright a {
     color: #009f4d;
+    font-size: 17px;
 }
 
 .copyright p {
     margin-bottom: 0;
+    font-size: 17px;
 }
+
 
 #moveToTop {
     display: none;
@@ -666,3 +690,5 @@ form.subscribe {
 button span {
     color: #fff;
 }
+/* /SECTION FOOTER */
+
