@@ -74,6 +74,20 @@
     opacity: 1;
 }
 
+.lb-dataContainer {
+    padding-top: 2rem;
+}
+
+.lb-data .lb-caption {
+    color: #fff;
+}
+
+.lb-data .lb-number {
+    padding-top: 2rem;
+    color: #009f4d;
+}
+
+
 
 .overlay-hover .text {
     color: #ffffff;
@@ -420,9 +434,11 @@ h3 {
     overflow: hidden;
     border: 1px solid transparent;
 }
-.card-body{
+
+.card-body {
     padding: 20px;
 }
+
 .card-header {
     padding: 0;
     border: transparent;
@@ -526,17 +542,19 @@ section.subscribe {
     background-repeat: no-repeat;
     padding: 4rem 0;
 }
-section.subscribe .container{
+
+section.subscribe .container {
     padding: 4rem 0;
 }
 
 .subscribe .title h3 {
     color: #fff;
+    font-size: 32px;
 }
 
 .subscribe .title p {
     color: #eee;
-    padding: 0 3rem 0 0;
+    /* padding: 0 3rem 0 0; */
 }
 
 form.subscribe {
@@ -729,18 +747,74 @@ button span {
 
 /* RESPONSIVE */
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    ...
+@media only screen and (max-width: 767px) {
+    .project-content .row .item {
+        margin-top: 2rem !important;
+    }
+
+    .carousel-inner .name {
+        margin-top: 80px;
+    }
+
+    .testimonial .title-big {
+        margin-bottom: 40px;
+    }
+
+    .subscribe .title p {
+        margin-top: 2rem;
+    }
+
+    .footer-content .item1,
+    .footer-content .item2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .footer-content .item3,
+    .footer-content .item4 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .footer-content .item2,
+    .footer-content .item3,
+    .footer-content .item4 {
+        margin-top: 2rem;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    ...
+
+    .carousel-inner .name {
+        margin-top: 5rem;
+    }
+
+    .content-right.col-lg-6.col-md-12.col-sm-12 {
+        margin-top: 4rem;
+    }
+
+    .subscribe .title p {
+        margin-top: 2rem;
+    }
+
+    .footer-content .item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .footer-content .item3,
+    .footer-content .item4 {
+        margin-top: 4rem;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    ...
+    .footer-content .item2 {
+        padding-right: 8rem !important;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -753,6 +827,4 @@ button span {
     .testimonial h3.title-big {
         margin: 0 0 50px;
     }
-
-
 }
