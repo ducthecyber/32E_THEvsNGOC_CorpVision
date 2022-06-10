@@ -643,11 +643,6 @@ body {
         animation-duration: 0.4s;
 
     }
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
-        text-align: center;
-        margin: 10px 10px 10px 136px;
-        width: 70%;
-    }
 
     @keyframes appear {
         from {
@@ -671,7 +666,11 @@ body {
         padding: 40px 0 0 0;
     }
 
-
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 767.5px) and (max-width: 991.5px) {
@@ -684,6 +683,11 @@ body {
         top: 100%;
         left: 25%;
         padding-top: 20px;
+    }
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+        text-align: center;
+        margin: 0;
+        width: 100%;
     }
 }
 
@@ -704,5 +708,10 @@ body {
     .Corpvision__header .container {
         width: 100vw;
         margin: 0 auto;
+    }
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+        text-align: center;
+        margin: 0;
+        width: 100%;
     }
 }

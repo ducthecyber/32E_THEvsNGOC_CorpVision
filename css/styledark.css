@@ -495,6 +495,7 @@ body {
     box-shadow: 2px 2px 2px 2px #009f4d;
     border-color: #009f4d;
 }
+
 /*-------------------RESPONSIVE----------------------*/
 @media only screen and (min-width: 575.5px) {
     .Corpvision__header {
@@ -636,163 +637,11 @@ body {
         padding: 40px 0 0 0;
     }
 
-
-}
-
-@media only screen and (min-width: 767.5px) and (max-width: 991.5px) {
-    .services .main .row {
-        position: relative;
-    }
-
-    .services .main .row .ser3 {
-        position: absolute;
-        top: 100%;
-        left: 25%;
-        padding-top: 20px;
-    }
-}
-/*-------------------RESPONSIVE----------------------*/
-@media only screen and (min-width: 575.5px) {
-    .Corpvision__header {
-        border-bottom: none;
-    }
-
-    .aboutUs .aboutUs__right {
-        margin-left: 0px;
-        padding-bottom: 48px;
-
-    }
-
-    .aboutUs {
-        padding: 60px 0 0 0;
-    }
-
-    .Corpvision__carousel img {
-        width: 100vw;
-        height: 100vh;
-    }
-
-    .Corpvision__carousel .carousel-inner .carousel-caption {
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+        text-align: center;
         margin: 0;
-        height: 50vh;
-    }
-    
-    .Corpvision__nav {
-        position: relative;
-        text-align: center;
-    }
-
-    .Corpvision__navsearch {
-        position: absolute;
-        right: 48px;
-        top: 30px;
-        transition: all 0.5s;
-    }
-    .Corpvision__header #navbarCorpVision .nav-item .nav-link {
-        opacity: 1;
-        padding: .6rem 1rem;
-    }
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
-        text-align: center;
-        margin: 10px 10px 10px 136px;
-        width: 70%;
-    }
-    .services .card{
-        margin-bottom: 20px;
-    }
-}
-@media only screen and (min-width: 767.5px) and (max-width: 1199.4px) {
-    .Corpvision__header {
-        transition: all 0.4s ease 0s;
-        background: rgba(0, 0, 0, 0.7);
-        border-bottom: 1px solid rgba(231, 231, 231, 0.18);
-    }
-
-    .Corpvision__header .navbar-nav {
-        float: left;
-        text-align: center;
-        width: 100%;
-        padding: 20px 0 0px;
-
-    }
-
-    .sticky {
-        background-color: #fff;
-    }
-
-    .sticky #scrollColor a p {
-        color: #3f3a64;
-    }
-
-    .Corpvision__header .navbar-collapse {
-        max-height: calc(100vh - 80px);
-        overflow-y: scroll;
-    }
-
-    .Corpvision__header #navbarCorpVision .nav-item .nav-link {
-        opacity: 1;
-        padding: .6rem 1rem;
-    }
-
-    #carouselCorpvision img {
-        height: 100vh;
-        width: 100vw;
-    }
-
-    .Corpvision__nav {
-        position: relative;
-    }
-
-    .Corpvision__navsearch {
-        position: absolute;
-        right: 48px;
-        top: 30px;
-        transition: all 0.5s;
-    }
-
-    #carouselCorpvision .carousel-caption h1 {
-        font-size: 45px;
-    }
-
-    #carouselCorpvision .carousel-caption {
-        left: 2%;
-        top: 55%;
-    }
-
-    #carouselCorpvision .carousel-caption button {
-        animation-name: appear;
-        animation-duration: 0.4s;
-
-    }
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
-        text-align: center;
-        margin: 10px 10px 10px 136px;
-        width: 70%;
-    }
-
-    @keyframes appear {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-
-    .aboutUs .aboutUs__left {
         width: 100%;
     }
-
-    .aboutUs .row .col-12 {
-        padding: 20px 0;
-    }
-
-    .products .row .product__right {
-        padding: 40px 0 0 0;
-    }
-
-
 }
 @media only screen and (min-width: 767.5px) and (max-width: 991.5px) {
     .services .main .row {
@@ -804,6 +653,11 @@ body {
         top: 100%;
         left: 25%;
         padding-top: 20px;
+    }
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+        text-align: center;
+        margin: 0;
+        width: 100%;
     }
 }
 @media only screen and (min-width: 1199.5px) {
@@ -823,5 +677,10 @@ body {
     .Corpvision__header .container {
         width: 100vw;
         margin: 0 auto;
+    }
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+        text-align: center;
+        margin: 0;
+        width: 100%;
     }
 }
