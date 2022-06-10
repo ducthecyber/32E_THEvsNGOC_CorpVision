@@ -1,6 +1,6 @@
 var tagButton1 = document.getElementById('click');
-var tagButton2 = document.getElementById('click1')
-var tagButton3 = document.getElementById('click2')
+var tagButton2 = document.getElementById('click1');
+var tagButton3 = document.getElementById('click2');
 
 click.onclick = function () {
   tagButton1.style.boxShadow = '2px 2px 0.2rem rgb(0, 159, 77, 50%)';
