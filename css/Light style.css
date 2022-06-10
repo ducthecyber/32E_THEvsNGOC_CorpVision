@@ -345,7 +345,7 @@ h3 {
 }
 
 .carousel-inner .intro p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 28px;
     color: #666;
     opacity: 0.8;
@@ -547,6 +547,15 @@ section.subscribe .container {
     padding: 4rem 0;
 }
 
+.subscribe .container {
+    text-align: center;
+}
+
+.subscribe-content {
+    display: inline-block;
+    max-width: 700px;
+}
+
 .subscribe .title h3 {
     color: #fff;
     font-size: 32px;
@@ -697,7 +706,8 @@ form.subscribe {
 }
 
 .footer .footer-title {
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 28px;
     margin-bottom: 20px;
     color: #fff;
 }
@@ -721,6 +731,10 @@ form.subscribe {
     font-size: 17px;
 }
 
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 
 #moveToTop {
     display: none;
@@ -746,8 +760,82 @@ button span {
 /* /SECTION FOOTER */
 
 /* RESPONSIVE */
+/* Small devices */
+@media only screen and (max-width: 290px) {
+    .carousel-inner .name {
+        margin-top: 144px !important;
+    }
+}
+
+@media only screen and (max-width: 332px) {
+    .carousel-inner .name {
+        margin-top: 128px !important;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    .testimonial .title-big {
+        line-height: 32px;
+    }
+
+    .testimonial-content {
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width:531px) {
+    .carousel-inner .name {
+        margin-top: 104px;
+    }
+
+    .footer-content .item1,
+    .footer-content .item2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .footer-content .item3,
+    .footer-content .item4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width:568px) {
+    h3.title-big {
+        font-size: 30px !important;
+        line-height: 38px;
+    }
+}
+
+@media only screen and (max-width:415px) {
+    h3.title-big {
+        font-size: 26px !important;
+        line-height: 32px;
+    }
+
+    .footer p {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    h3.title-big {
+        font-size: 24px !important;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .card-body a.detail {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 532px) {
     .project-content .row .item {
         margin-top: 2rem !important;
     }
@@ -772,8 +860,8 @@ button span {
 
     .footer-content .item3,
     .footer-content .item4 {
-        flex: 0 0 40%;
-        max-width: 40%;
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 
     .footer-content .item2,
@@ -814,6 +902,27 @@ button span {
 @media only screen and (min-width: 992px) {
     .footer-content .item2 {
         padding-right: 8rem !important;
+    }
+
+    .footer .footer-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .row .col-lg-2 {
+        flex: 0 0 calc(100%/3/2);
+        max-width: calc(100%/3/2);
+    }
+
+    .row .col-lg-4 {
+        flex: 0 0 calc(100%/3);
+        max-width: calc(100%/3);
+    }
+
+    .footer-content .item2,
+    .footer-content .item3,
+    .footer-content .item4 {
+        margin-top: 0;
     }
 }
 
