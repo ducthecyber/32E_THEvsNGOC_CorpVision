@@ -17,9 +17,10 @@ body {
 }
 
 /* HEADER */
-#header{
+#header {
     z-index: 50;
 }
+
 .Corpvision__header {
     transition: all 0.4s ease 0s;
     height: 6.25rem;
@@ -39,7 +40,8 @@ body {
     color: #fff;
 
 }
-.Corpvision__header .navDropdown::before{
+
+.Corpvision__header .navDropdown::before {
     content: '';
     width: 14px;
     height: 14px;
@@ -54,8 +56,9 @@ body {
     left: 49%;
     z-index: 1001;
 }
+
 .Corpvision__header #navbarCorpVision .nav-item .nav-link {
-  
+
     font-weight: bolder;
     font-size: 0.99rem;
 }
@@ -64,10 +67,12 @@ body {
     color: #fff;
     opacity: 1;
 }
+
 #navbarCorpVision .nav-item .nav-link.active1 {
     color: #fff;
     opacity: 0.7;
 }
+
 .Corpvision__header .navCorpvision .navCorpvision__icon {
     line-height: 100%;
     cursor: pointer;
@@ -153,33 +158,40 @@ body {
     color: #fff;
 }
 
-.sticky{
+.sticky {
     background-color: #151421;
 }
+
 .sticky #navbarCorpVision .nav-item .nav-link.active {
     color: #009f4d;
 }
+
 .sticky #navbarCorpVision .nav-item .nav-link.active1 {
     opacity: 0.6;
 }
-.Corpvision__header .Corpvision__nav button{
+
+.Corpvision__header .Corpvision__nav button {
     color: #fff;
     background-color: #009f4d;
     padding: 7px 11px;
 }
-.Corpvision__header .navDropdown{
+
+.Corpvision__header .navDropdown {
     background-color: #151421;
     border-color: #151421;
 }
-.Corpvision__header .navDropdown .dropdown-item{
+
+.Corpvision__header .navDropdown .dropdown-item {
     color: #fff;
     text-align: left;
     opacity: .5;
     transition: all .5;
 }
-.Corpvision__header .navDropdown .dropdown-item:hover{
+
+.Corpvision__header .navDropdown .dropdown-item:hover {
     opacity: 1;
 }
+
 /* CAROUSEL */
 .Corpvision__carousel {
     height: auto;
@@ -256,6 +268,7 @@ body {
 .Corpvision__carousel .shape path {
     fill: #151421;
 }
+
 .Corpvision__carousel .carousel-inner .animate14 h1 {
     animation-delay: 0.8s;
     animation-duration: 1s;
@@ -269,7 +282,9 @@ body {
     animation-duration: 1s;
     animation-delay: 1s;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon{
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
     display: none;
 }
 
@@ -486,29 +501,34 @@ body {
     margin-bottom: 0;
     transition: all .5s;
 }
-.services .main .card:hover h5{
+
+.services .main .card:hover h5 {
     color: #009f4d;
 }
-.services .main .card .card-body .card-text{
+
+.services .main .card .card-body .card-text {
     font-size: 17px;
     line-height: 27px;
     color: #c2c2c2;
     opacity: .6;
     padding-top: 40px;
 }
-.services .main .card .card-body button{
+
+.services .main .card .card-body button {
     padding: 8px 35px;
     font-size: 1rem;
     line-height: 28px;
     font-weight: 600;
     transition: 0.5s ease-in;
     color: #eee;
-   
+
 }
-.services .main .card .card-body button:hover{
+
+.services .main .card .card-body button:hover {
     color: #009f4d;
 }
-.services .setOne{
+
+.services .setOne {
     box-shadow: 2px 2px 2px 2px #009f4d;
     border-color: #009f4d;
 }
@@ -538,7 +558,7 @@ body {
         margin: 0;
         height: 50vh;
     }
-    
+
     .Corpvision__nav {
         position: relative;
         text-align: center;
@@ -550,18 +570,26 @@ body {
         top: 30px;
         transition: all 0.5s;
     }
+
     .Corpvision__header #navbarCorpVision .nav-item .nav-link {
         padding: .6rem 1rem;
     }
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown {
         text-align: center;
         margin: 10px 10px 10px 136px;
         width: 70%;
     }
-    .services .card{
+
+    .services .card {
         margin-bottom: 20px;
     }
+    .Corpvision__header .navDropdown .dropdown-item{
+        text-align: center;
+        opacity: 1;
+    }
 }
+
 @media only screen and (min-width: 767.5px) and (max-width: 1199.4px) {
     .Corpvision__header {
         transition: all 0.4s ease 0s;
@@ -625,10 +653,15 @@ body {
         animation-duration: 0.4s;
 
     }
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown {
         text-align: center;
         margin: 10px 10px 10px 136px;
         width: 70%;
+    }
+    .Corpvision__header .navDropdown .dropdown-item{
+        text-align: center;
+        opacity: 1;
     }
 
     @keyframes appear {
@@ -653,12 +686,13 @@ body {
         padding: 40px 0 0 0;
     }
 
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown {
         text-align: center;
         margin: 0;
         width: 100%;
     }
 }
+
 @media only screen and (min-width: 767.5px) and (max-width: 991.5px) {
     .services .main .row {
         position: relative;
@@ -670,12 +704,16 @@ body {
         left: 25%;
         padding-top: 20px;
     }
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown {
         text-align: center;
-        margin: 0;
-        width: 100%;
+        margin: 0px;
+        position: relative;
+        left: 174px;
+        width: 65%;
     }
 }
+
 @media only screen and (min-width: 1199.5px) {
 
     .Corpvision__header .navCorpvision .navCorpvision__icon span {
@@ -694,7 +732,8 @@ body {
         width: 100vw;
         margin: 0 auto;
     }
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown {
         text-align: center;
         margin: 0;
         width: 100%;

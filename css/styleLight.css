@@ -186,6 +186,7 @@ body {
     left: 49%;
     z-index: 1001;
 }
+
 /* CAROUSEL */
 .Corpvision__carousel {
     height: auto;
@@ -574,6 +575,7 @@ body {
         margin: 10px 10px 10px 136px;
         width: 70%;
     }
+    
     .services .card{
         margin-bottom: 20px;
     }
@@ -684,8 +686,11 @@ body {
     }
     .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
         text-align: center;
-        margin: 0;
-        width: 100%;
+        margin: 0px;
+        position: relative;
+        left: 174px;
+        width: 65%;
+        
     }
 }
 
