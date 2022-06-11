@@ -186,7 +186,6 @@ body {
     left: 49%;
     z-index: 1001;
 }
-
 /* CAROUSEL */
 .Corpvision__carousel {
     height: auto;
@@ -568,7 +567,6 @@ body {
         transition: all 0.5s;
     }
     .Corpvision__header #navbarCorpVision .nav-item .nav-link {
-        opacity: 1;
         padding: .6rem 1rem;
     }
     .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
