@@ -790,7 +790,6 @@ form.subscribe {
     outline: none;
     cursor: pointer;
     transition: ease-out 0.3s;
-    opacity: 0;
 }
 
 button span {
@@ -1047,7 +1046,23 @@ body {
 
 
 }
+#header .Corpvision__nav .navCorpvision .navCorpvision__icon i {
+    font-size: 2rem;
+}
+#header .Corpvision__nav .navCorpvision .navCorpvision__icon span {
+    color: #fff;
+}
 
+#header .Corpvision__nav .navCorpvision .navCorpvision__text {
+    color: #fff;
+}
+#header .Corpvision__nav {
+    padding: 18px;
+}
+#header .Corpvision__navsearch .icons i {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+}
 .Corpvision__header .Corpvision__nav {
     padding: 18px 0;
 }
@@ -1228,7 +1243,7 @@ body {
 
 #carouselCorpvision .carousel-caption h1 {
     font-size: 4.0625rem;
-    line-height: 1.1;
+    line-height: 5.2rem;
     margin-bottom: 18px;
     max-width: 800px;
     font-weight: 600;
@@ -1245,11 +1260,18 @@ body {
 
 #carouselCorpvision .carousel-caption button {
     margin-top: 1rem;
-    padding: 10px 45px;
+    padding: 10px 50px;
     border-radius: 8px;
     transition: all 0.5s;
 }
+.Corpvision__carousel #carouselCorpvision .carousel-caption p {
+    color: #fff;
+    margin-bottom: 15px;
+}
 
+.Corpvision__carousel #carouselCorpvision .carousel-caption button {
+    font-size: 1.2rem;
+}
 #carouselCorpvision .carousel-indicators li {
     display: none;
 }
@@ -1553,9 +1575,6 @@ body {
 
 /*-------------------RESPONSIVE----------------------*/
 @media only screen and (min-width: 575.5px) {
-    .Corpvision__header {
-        border-bottom: none;
-    }
 
     .aboutUs .aboutUs__right {
         margin-left: 0px;
