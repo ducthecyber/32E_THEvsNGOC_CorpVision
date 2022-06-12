@@ -434,46 +434,46 @@ h3 {
     transform: scale(1.1);
 }
 
-.card {
+.blog-title .card {
     overflow: hidden;
     border: 1px solid transparent;
 }
 
-.card-body {
+.blog-title .card-body {
     padding: 20px;
 }
 
-.card-header {
+.blog-title .card-header {
     padding: 0;
     border: transparent;
 }
 
-.card-body p a {
+.blog-title .card-body p a {
     font-size: 17px;
     font-weight: 400;
     color: #999;
     text-decoration: none;
 }
 
-.card-body a.detail {
+.blog-title .card-body a.detail {
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
 }
 
-.card-body .detail:hover {
+.blog-title .card-body .detail:hover {
     color: #00a63f;
     transition: all 0.5s;
 }
 
-.card-body .detail {
+.blog-title .card-body .detail {
     font-size: 20px;
     font-weight: 600;
     color: #3f3a64;
     line-height: 28px;
 }
 
-.card-footer {
+.blog-title .card-footer {
     background-color: #fff;
     border-top: 1px solid #eee;
 }
@@ -484,7 +484,7 @@ h3 {
     grid-gap: 10px;
 }
 
-.card-footer .img-fluid {
+.blog-title .card-footer .img-fluid {
     border-radius: 50%;
 }
 
@@ -941,6 +941,7 @@ button span {
         margin: 0 0 50px;
     }
 }
+
 /* OVERLAY-HOVER:TEXT */
 
 @media only screen and (max-width: 767px) {
@@ -1007,15 +1008,31 @@ body {
 
 }
 
+#header .Corpvision__nav .navCorpvision .navCorpvision__icon i {
+    font-size: 2rem;
+}
+
+#header .Corpvision__nav .navCorpvision .navCorpvision__icon span {
+    color: #3f3a64;
+}
+
+#header .Corpvision__nav .navCorpvision .navCorpvision__text {
+    color: #3f3a64;
+}
+
 .Corpvision__header .Corpvision__nav {
     padding: 18px 0;
 }
 
-.Corpvision__header .navCorpvision {
+#header .Corpvision__nav .navCorpvision {
     font-size: 2.4rem;
     font-weight: 600;
     color: #fff;
 
+}
+
+#header .Corpvision__nav {
+    padding: 18px;
 }
 
 .Corpvision__header #navbarCorpVision .nav-item .nav-link {
@@ -1114,7 +1131,7 @@ body {
     cursor: pointer;
 }
 
-.Corpvision__navsearch .icons {
+#header .Corpvision__navsearch .icons i {
     font-size: 1.3rem;
     color: #fff;
 }
@@ -1127,7 +1144,7 @@ body {
     color: #3f3a64;
 }
 
-.sticky .Corpvision__navsearch .icons,
+.sticky .Corpvision__navsearch .icons i,
 .sticky #header .navbar-expand-lg .navbar-nav .nav-link {
     color: #3f3a64 !important;
 }
@@ -1139,6 +1156,14 @@ body {
 .sticky #navbarCorpVision .nav-item .nav-link.active1 {
     color: #3f3a64;
     opacity: 0.8;
+}
+
+.sticky #header .Corpvision__nav .navCorpvision .navCorpvision__icon span {
+    color: #3f3a64;
+}
+
+.sticky #header .Corpvision__nav .navCorpvision .navCorpvision__text {
+    color: #3f3a64!important;
 }
 
 .Corpvision__header .navbar-toggler {
@@ -1182,7 +1207,7 @@ body {
 
 #carouselCorpvision .carousel-caption h1 {
     font-size: 4.0625rem;
-    line-height: 1.1;
+    line-height: 5.2rem;
     margin-bottom: 18px;
     max-width: 800px;
     font-weight: 600;
@@ -1199,7 +1224,7 @@ body {
 
 #carouselCorpvision .carousel-caption button {
     margin-top: 1rem;
-    padding: 10px 45px;
+    padding: 10px 50px;
     border-radius: 8px;
     transition: all 0.5s;
 }
@@ -1265,6 +1290,14 @@ body {
     display: none;
 }
 
+.Corpvision__carousel #carouselCorpvision .carousel-caption p {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.Corpvision__carousel #carouselCorpvision .carousel-caption button {
+    font-size: 1.2rem;
+}
 
 /* ABOUTUS */
 .aboutUs {
@@ -1387,6 +1420,8 @@ body {
     border-radius: 8px;
     transition: all 0.5s;
     cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 25px;
 }
 
 .products .product__right .row .col-6 {
@@ -1532,7 +1567,7 @@ body {
         margin: 0;
         height: 50vh;
     }
-    
+
     .Corpvision__nav {
         position: relative;
         text-align: center;
@@ -1544,19 +1579,22 @@ body {
         top: 30px;
         transition: all 0.5s;
     }
+
     .Corpvision__header #navbarCorpVision .nav-item .nav-link {
         padding: .6rem 1rem;
     }
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown {
         text-align: center;
         margin: 10px 10px 10px 136px;
         width: 70%;
     }
-    
-    .services .card{
+
+    .services .card {
         margin-bottom: 20px;
     }
 }
+
 @media only screen and (min-width: 767.5px) and (max-width: 1199.4px) {
     .Corpvision__header {
         transition: all 0.4s ease 0s;
@@ -1643,7 +1681,7 @@ body {
         padding: 40px 0 0 0;
     }
 
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown {
         text-align: center;
         margin: 0;
         width: 100%;
@@ -1661,13 +1699,14 @@ body {
         left: 25%;
         padding-top: 20px;
     }
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown {
         text-align: center;
         margin: 0px;
         position: relative;
         left: 174px;
         width: 65%;
-        
+
     }
 }
 
@@ -1689,9 +1728,17 @@ body {
         width: 100vw;
         margin: 0 auto;
     }
-    .Corpvision__header #navbarCorpVision .nav-item .navDropdown{
+
+    .Corpvision__header #navbarCorpVision .nav-item .navDropdown {
         text-align: center;
         margin: 0;
         width: 100%;
+    }
+    .sticky #header .Corpvision__nav .navCorpvision .navCorpvision__icon span{
+        color: #3f3a64;
+    }
+    
+    .sticky #header .Corpvision__nav .navCorpvision .navCorpvision__text {
+        color: #3f3a64!important;
     }
 }
